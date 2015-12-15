@@ -15,8 +15,9 @@ function popup(){
   text-align:center;
   font-family: 'Quicksand', sans-serif;
 
-  background-image: url(https://images.unsplash.com/photo-1429277158984-614d155e0017?q=80&fm=jpg&s=138f154e17a304b296c953323862633b);
-  background-size: 100%;
+   background-image: url(https://images.unsplash.com/photo-1429277158984-614d155e0017?q=80&fm=jpg&s=138f154e17a304b296c953323862633b);
+  background-size: 100%; 
+
 
   }
   
@@ -120,23 +121,25 @@ text-align: justify;
 </nav>
 
   <header>
-  <img src="http://i.imgur.com/HukgQul.png?1" width="200px">
+  <img src="http://i.imgur.com/HukgQul.png?1" alt="Logo" width="200px">
   <h1>Creative Graphic Designs</h1>
 <p>Welcome to my new website. I am working on it. Please check back soon!
 <p>I am located in Miami and I do free-lance creative works.
 
                      -Denisse-
-<h2>Portfolio</h2>
+
+
+
 </header>
 <section id="what-i-do">
   <div class="container">
 <h1>What I do</h1>
 <article> <i class="fa fa-desktop fa-2x"></i>
-<h1>Graphic Design</h1> <p>Every kind of designs</p></article>
+<h3>Graphic Design</h3> <p>Every kind of designs</p></article>
 <article> <i class="fa fa-cog fa-spin fa-2x"></i> 
-<h1>Business Cards</h1> <p>I can customize any business cards for your own</p> </article>
+<h3>Business Cards</h3> <p>I can customize any business cards for your own</p> </article>
 <article> <i class="fa fa-camera-retro fa-2x"></i>
-<h1>Photography</h1> <p>Any professional photos</p> </article>
+<h3>Photography</h3> <p>Any professional photos</p> </article>
 </div>
 </section>
 
@@ -152,7 +155,7 @@ Meeting options: Phone, Google Hangouts, Skype
 
 <section id="my-latest-work">
 <h1>My Latest Work</h1>
-<img src="http://i.imgur.com/aMU2qUP.jpg?1" width= "150px" alt="My Latest Work">
+<a class="test-popup-link" href="http://i.imgur.com/aMU2qUP.jpg?1"> <img src="http://i.imgur.com/aMU2qUP.jpg?1" width="150px" alt="My Latest Work"> </a>
 
 </section>
 
@@ -161,4 +164,13 @@ Meeting options: Phone, Google Hangouts, Skype
 <a href="https://www.linkedin.com/profile/view?id=AAIAABsiFoUBeOiKPqGk9GC3Y81yR6e5GBpGgHs&trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square"></i></a>
 <a href="https://twitter.com/denissergutt"><i class="fa fa-twitter-square"></i></a>
 </footer>
+
+<script>
+$('.test-popup-link').magnificPopup({
+  type: 'image',
+  gallery: {enabled:true}
+  // other options
+});
+</script>
+
 </body>
