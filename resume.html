@@ -6,8 +6,13 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+<script> 
+function popup(){
+  window.open("fees.html","popup","height=300,width=300");
+}
+</script>
 <style>
-body{
+ body{
   text-align:center;
   font-family: 'Quicksand', sans-serif;
   background-color: #2b2031;
@@ -18,11 +23,10 @@ body{
     font-family: 'Poiret One', cursive;
     color: white; 
   }
-#my-resume iframe {
-  width: 800px;
-  height: 800px;
+  h2 {
+    color: #6a5278;
 }
- a {
+  a {
     color: #f3dfff;
   }
   
@@ -32,22 +36,122 @@ body{
   
   a:visited {
     color: #bfeefc;
-    }
-</style> 
+}
+ #Illustrator-1 {
+    background-color: #CECECE;
+    overflow: hidden;
+    border-radius: 14px;
+    padding:20px;
+    margin: 20px;
+    width: 902px;
+    margin: 27px auto;
+}
+ #Typography-1 {
+    background-color: #CECECE;
+    overflow: hidden;
+    border-radius: 14px;
+    padding:20px;
+    margin: 20px;
+    width: 902px;
+    margin: 27px auto;
+}
+  #Photography-1 {
+    background-color: #CECECE;
+    overflow: hidden;
+    border-radius: 14px;
+    padding:20px;
+    margin: 20px;
+    width: 902px;
+    margin: 27px auto;
+}
+ #Logos-Cards {
+    background-color: #CECECE;
+    overflow: hidden;
+    border-radius: 14px;
+    padding:20px;
+    margin: 20px;
+    width: 902px;
+    margin: 27px auto;
+}
+  #img-2 {
+	padding: 0px;
+	margin: 10px;
+  }
+ 
+ #img-3{
+ 	padding: 11px;
+	margin: 1px;
+ }
+ #img-4{
+ 	padding: 11px;
+	margin: 1px;
+ }
+   article {
+    padding: 10px;
+    width: 270px;
+    height: 267px;
+    float:left;
+    background-color: #2b2031;
+    margin: 5px;
+    border-radius: 14px;
+}
+img {
+	padding: 0px;
+	margin: 20px;
+}
+</style>
 
-
-
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"> </script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
 </head>
+<body>
 
 <nav>
 <a href="index.html"> Home </a>  <a href="about.html"> About </a>
 <a href="portfolio.html" class="menu-selected"> Portfolio </a>
 <a href="resume.html"> Resume </a> 
 </nav>
+<header>
+<img src="http://i.imgur.com/JsrQgku.png" alt="Logo" width="200">
+<h1> Denisse Romano</h1>
+<h2>Portfolio Pieces</h2>
+</header>
 
-<h1>My Resume</h1>
-<section id="my-resume">
-<iframe src="https://docs.google.com/document/d/16CMnDny3gnGphJ52GSzmfqdPzbyZeAQiFQ3IbqBWU5Y/pub?embedded=true"></iframe>
+<section id="Illustrator-1">
+  <div class="container">
+<h2>Illustations</h2>
+<article> <a class="test-popup-link" href="http://i.imgur.com/3p8PRVj.png"><img src="http://i.imgur.com/3p8PRVj.png" width= "200" alt="Lip Illustration"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/aMU2qUP.jpg?1"><img src="http://i.imgur.com/aMU2qUP.jpg?1" width= "150" alt="Face Illustration"> </a> </article>
+
+</div>
+</section>
+
+<section id="Typography-1">
+  <div class="container">
+<h2>Typography</h2>
+<article> <a class="test-popup-link" href="http://i.imgur.com/rFiKiwB.png?1"><img id='img-2' src="http://i.imgur.com/rFiKiwB.png?1" width= "250" alt="Typography"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/LijsvKF.jpg?1"><img id='img-2' src="http://i.imgur.com/LijsvKF.jpg?1" width= "250" alt="Typography"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/LHFk68Z.png?1"><img id='img-2' src="http://i.imgur.com/LHFk68Z.png?1" width= "160" alt="Typography"> </a> </article>
+</div>
+</section>
+
+<section id="Photography-1">
+  <div class="container">
+<h2>Photography</h2>
+<article> <a class="test-popup-link" href="http://i.imgur.com/K5Kh8f3.jpg?1"><img id='img-3' src="http://i.imgur.com/K5Kh8f3.jpg?1" width= "175" alt="Photography 1"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/DvwIT9e.jpg?1"><img id='img-3' src="http://i.imgur.com/DvwIT9e.jpg?1" width= "250" alt="Photography 2"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/XBbmAWR.jpg"><img id='img-3' src="http://i.imgur.com/XBbmAWR.jpg" width= "250" alt="Photography 3"> </a></article>
+</div>
+</section>
+
+<section id="Logos-Cards">
+  <div class="container">
+<h2>Logos and Bussines Cards</h2>
+<article> <a class="test-popup-link" href="http://i.imgur.com/tGXkUvr.png?1"><img id='img-4' src="http://i.imgur.com/tGXkUvr.png?1" width= "250" alt="Logo"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/y03YZJK.png?1"><img id='img-4' src="http://i.imgur.com/y03YZJK.png?1" width= "250" alt="Bussines Card"> </a> </article>
+<article> <a class="test-popup-link" href="http://i.imgur.com/p5IgoBd.jpg?1"><img id='img-4' src="http://i.imgur.com/p5IgoBd.jpg?1" width= "250" alt="Logo 2"> </a> </article>
+</div>
 </section>
 
 <footer>
@@ -56,4 +160,11 @@ body{
 <a href="https://twitter.com/denissergutt"><i class="fa fa-twitter-square"></i></a>
 </footer>
 
-
+<script>
+$('.test-popup-link').magnificPopup({
+  type: 'image'
+  // other options
+});
+</script>
+</body>
+</html>
