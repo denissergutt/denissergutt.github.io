@@ -39,6 +39,27 @@ fill: white;
 #time:hover polygon, #time:hover circle {
 	transition: 0.4s all;
 }
+	
+.big-needles {
+  animation: needles 2s linear infinite;
+  transform-origin: 50% 50%;
+  fill:#FFF;
+  stroke:#FFF;
+  stroke-width:19;
+}
+
+.small-needles{
+    transform-origin: 50% 50%;
+  stroke:#FFF;
+  stroke-width:19;
+  animation: needles 4s linear infinite;
+}
+
+@keyframes needles {
+  100% {
+    transform: rotate(360deg)
+  }
+}
 
 
 </style>
